@@ -15,7 +15,7 @@
 		"outerColor": [255,255,255],
 		"innerColor": [111, 186, 252],
 		"uniqueName": "Deliverance",
-		"uniques": ["Instantly gain [1] [Mana] <every [3] turns> <hidden from users>"],
+		"uniques": ["Instantly gain [1] [Mana] <upon turn end> <hidden from users>"],
 		"cities": ["Hands of Heaven","Bastion Henry","Bastion William"]
 	},
 	{
@@ -34,7 +34,7 @@
 		"outerColor": [34, 30, 36],
 		"innerColor": [163, 149, 171],
 		"uniqueName": "Raven Markings",
-		"uniques": ["Instantly gain [1] [Mana] <every [3] turns> <hidden from users>"],
+		"uniques": ["Instantly gain [1] [Mana] <upon turn end> <hidden from users>"],
 		"cities": ["Haydenbow","city 2","city 3"]
 	}
 ]
