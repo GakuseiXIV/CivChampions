@@ -1,0 +1,17 @@
+[
+  {
+    "columnNumber": 0,
+    "era": "Tier 0",
+    "techCost": 20,
+    "buildingCost": 40,
+    "wonderCost": 180,
+    "techs": [
+      {
+        "name": "New Genesis",
+        "row": 2,
+        "quote": "'...and God struck down his creation, leaving only its Champions.'",
+        "uniques": ["Starting tech"]
+      }
+    ]
+  }
+]

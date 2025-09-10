@@ -13,7 +13,7 @@
     "range": 1,
     "cost": 0,
     "attackSound": "shot",
-    "uniques": ["Founds a new city <costs [1] [Mana]>","Requires at least [2] population"]
+    "uniques": ["Founds a new city <costs [1] [Mana]>"]
   },
   {
       "name": "Rifleman",
