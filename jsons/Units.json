@@ -24,7 +24,7 @@
     "range": 1,
     "cost": 0,
     "attackSound": "shot",
-    "uniques": ["Founds a new city <costs [1] [Mana]>", "Can Spread Religion", "May found a religion <costs [1] [Mana]"]
+    "uniques": ["Founds a new city <costs [1] [Mana]>", "Can Spread Religion", "May found a religion <costs [1] [Mana]>"]
   },
   {
     "name":"The Gravemaker",
@@ -37,7 +37,7 @@
     "attackSound": "shot",
     "uniques": ["Founds a new city <costs [1] [Mana]>",
     "[1] additional attacks per turn <upon defeating a [Non-City] unit>",
-    "Can instantly construct a [Graveyard] improvement <costs [1] [Mana]"]
+    "Can instantly construct a [Graveyard] improvement <costs [1] [Mana]>"]
   },
   {
     "name":"Skeleton",
