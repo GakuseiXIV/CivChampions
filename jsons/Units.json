@@ -38,7 +38,7 @@
     "cost": 0,
     "attackSound": "shot",
     "uniques": [
-      "[3] Free [Skeleton] units appear <costs [5] [Mana]>",
+      "[3] free [Skeleton] units appear <costs [5] [Mana]>",
       "Turn this tile into a [Wasteland] tile <costs [5] [Mana]>",
       "[This Unit] heals [20] HP <upon ending a turn in a [Wasteland] tile>"
     ]
