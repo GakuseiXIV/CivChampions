@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Mana",
+    "resourceType": "Strategic",
+    "uniques": ["Cannot be traded",
+      "Doesn't generate naturally"]
+  }
+]
