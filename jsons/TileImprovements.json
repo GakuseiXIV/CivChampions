@@ -7,9 +7,10 @@
     "food": 0,
     "turnsToBuild": 6,
     "uniques": [
-      "Unbuildable",
       "Can be built outside your borders",
-      "Free [Skeleton] appears <every [3] turns>"
+      "Free [Skeleton] appears <every [3] turns>",
+      "Cannot be purchased",
+      "Limited to [1] per Civilization"
     ]
   }
 ]
