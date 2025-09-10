@@ -6,6 +6,9 @@
     {
         "name": "Infantry",
         "movementType": "Land"
+    },
+    {
+        "name": "Champion",
+        "movementType": "Land"
     }
-    
 ]
