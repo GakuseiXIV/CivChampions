@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Graveyard",
+    "terrainsCanBeBuiltOn": [
+      "Grassland"
+    ],
+    "food": 0,
+    "turnsToBuild": 6,
+    "uniques": [
+      "Unbuildable",
+      "Can be built outside your borders",
+      "Free [Skeleton] appears <every [3] turns>"
+    ]
+  }
+]

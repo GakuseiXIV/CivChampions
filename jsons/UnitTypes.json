@@ -11,7 +11,7 @@
         "name": "Champion",
         "movementType": "Land",
         "uniques": [
-            "Comment [Champions are powerful troops that represent their nation.]",
+            "Comment [Champions are powerful troops that represent their nation. They can use Mana to perform bonus actions.]",
             "Limited to [1] per Civilization",
             "[50]% Strength <upon entering a new era>"
         ]

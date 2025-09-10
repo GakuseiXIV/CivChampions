@@ -6,17 +6,6 @@
       "uniques": ["Founds a new city <by consuming this unit>","Requires at least [2] population"]
   },
   {
-    "name":"Highlord Kane",
-    "unitType": "Champion",
-    "uniqueTo": "Holy Orders",
-    "movement": 1,
-    "strength": 15,
-    "range": 1,
-    "cost": 0,
-    "attackSound": "shot",
-    "uniques": ["Founds a new city <costs [1] [Mana]>"]
-  },
-  {
       "name": "Rifleman",
       "unitType": "Infantry",
       "movement": 2,
@@ -25,5 +14,40 @@
       "rangedStrength": 7,
       "cost": 40,
       "attackSound": "shot"
+  },
+  {
+    "name":"Highlord Kane",
+    "unitType": "Champion",
+    "uniqueTo": "Holy Orders",
+    "movement": 3,
+    "strength": 12,
+    "range": 1,
+    "cost": 0,
+    "attackSound": "shot",
+    "uniques": ["Founds a new city <costs [1] [Mana]>", "Can Spread Religion", "May found a religion <costs [1] [Mana]"]
+  },
+  {
+    "name":"The Gravemaker",
+    "unitType": "Champion",
+    "uniqueTo": "Crow's Den",
+    "movement": 1,
+    "strength": 16,
+    "range": 1,
+    "cost": 0,
+    "attackSound": "shot",
+    "uniques": ["Founds a new city <costs [1] [Mana]>",
+    "[1] additional attacks per turn <upon defeating a [Non-City] unit>",
+    "Can instantly construct a [Graveyard] improvement <costs [1] [Mana]"]
+  },
+  {
+    "name":"Skeleton",
+    "unitType": "Infantry",
+    "uniqueTo": "Crow's Den",
+    "movement": 3,
+    "strength": 3,
+    "range": 1,
+    "cost": 0,
+    "attackSound": "shot",
+    "uniques": ["Unbuildable"]
   }
 ]
