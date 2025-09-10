@@ -37,9 +37,11 @@
     "range": 1,
     "cost": 0,
     "attackSound": "shot",
-    "uniques": ["Founds a new city <costs [5] [Mana]>",
-    "[1] additional attacks per turn <upon defeating a [Non-City] unit>",
-    "Can instantly construct a [Graveyard] improvement <costs [10] [Mana]>"]
+    "uniques": [
+      "[3] Free [Skeleton] units appear <costs [5] [Mana]>",
+      "Turn this tile into a [Wasteland] tile <costs [5] [Mana]>",
+      "[This Unit] heals [20] HP <upon ending a turn in a [Wasteland] tile>"
+    ]
   },
   {
     "name":"Skeleton",

@@ -16,5 +16,12 @@
 		"RGB": [2, 104, 100],
 		"uniques": [
 		]
+	},
+	{
+		"name": "Wasteland",
+		"type": "Land",
+		"movementCost": 3,
+		"RGB": [54, 10, 60],
+		"uniques": ["Doesn't generate naturally"]
 	}
 ]
