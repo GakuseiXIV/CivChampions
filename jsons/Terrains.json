@@ -6,5 +6,15 @@
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": []
-    }
+    },
+	{
+		"name": "Ocean",
+		"type": "Water",
+		"food": 1,
+		"gold": 1,
+		"movementCost": 1,
+		"RGB": [2, 104, 100],
+		"uniques": [
+		]
+	}
 ]

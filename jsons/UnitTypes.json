@@ -9,6 +9,11 @@
     },
     {
         "name": "Champion",
-        "movementType": "Land"
+        "movementType": "Land",
+        "uniques": [
+            "Comment [Champions are powerful troops that represent their nation.]",
+            "Limited to [1] per Civilization",
+            "[50]% Strength <upon entering a new era>"
+        ]
     }
 ]

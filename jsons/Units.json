@@ -8,6 +8,7 @@
   {
     "name":"Highlord Kane",
     "unitType": "Champion",
+    "uniqueTo": "Holy Orders",
     "movement": 1,
     "strength": 15,
     "range": 1,
