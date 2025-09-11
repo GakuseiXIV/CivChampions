@@ -1,1 +1,11 @@
-{"isBaseRuleset":true}
+{
+  "isBaseRuleset":true,
+  "modUrl":"https://github.com/GakuseiXIV/CivChampions",
+  "author":"GakuseiXIV",
+  "lastUpdated":"2025-09-10T20:22:24Z",
+  "modSize":44,
+  "topics":["unciv-mod"],
+  "constants": {
+    "cityStrengthBase": 1
+  }
+}

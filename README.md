@@ -1,3 +1,2 @@
-Minimal base ruleset for Unciv, so people can start somewhere and gradually expand
+# CivChampions
 
-Based on https://github.com/AdelleStuuu/Adelle-Corp

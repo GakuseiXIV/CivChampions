@@ -6,16 +6,18 @@
 		"adjective": ["Knight"],
 
 		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart2": "Under Highlord Kane, the Holy Orders reached a new peak through conquest and inquisition.",
 		"declaringWar": "",
 		"attacked": "",
 		"defeated": "",
 		"introduction": "",
 		"tradeRequest": "",
 		"outerColor": [255,255,255],
-		"innerColor": [111, 186, 252],
+		"innerColor": [92, 152, 205],
 		"uniqueName": "Deliverance",
-		"uniques": ["Instantly gain [1] [Mana] <upon turn end> <hidden from users>"],
+		"uniques": [
+			"Free [Highlord Kane] appears <hidden from users>",
+			"Starts with [Kane's Creed]"],
 		"cities": ["Hands of Heaven","Bastion Henry","Bastion William"]
 	},
 	{
@@ -34,7 +36,31 @@
 		"outerColor": [34, 30, 36],
 		"innerColor": [163, 149, 171],
 		"uniqueName": "Raven Markings",
-		"uniques": ["Instantly gain [1] [Mana] <upon turn end> <hidden from users>"],
+		"uniques": [
+			"Free [The Gravemaker] appears <hidden from users>",
+			"Starts with [Breadtrails]"
+		],
 		"cities": ["Haydenbow","city 2","city 3"]
+	},
+	{
+		"name": "Pequena",
+		"leaderName": "Flixel",
+		"preferredVictoryType": "Domination",
+		"adjective": ["Pixie"],
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"tradeRequest": "",
+		"outerColor": [132, 32, 96],
+		"innerColor": [250, 100, 200],
+		"uniqueName": "Butterfly",
+		"uniques": [
+			"Free [Flixel] appears <hidden from users>",
+			"Starts with [Fairy Dust]"],
+		"cities": ["Mylia Gran","city2","city3"]
 	}
 ]

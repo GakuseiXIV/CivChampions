@@ -7,8 +7,35 @@
     "wonderCost": 180,
     "techs": [
       {
+        "name": "Kane's Creed",
+        "row": 1,
+        "quote": "'...and God struck down his creation, leaving only its Champions.'",
+        "uniques": ["Only available <for [Holy Orders] Civilizations>"]
+      },
+      {
+        "name": "Breadtrails",
+        "row": 3,
+        "quote": "'...and God struck down his creation, leaving only its Champions.'",
+        "uniques": ["Only available <for [Crow's Den] Civilizations>", "Instantly provides [3] [Souls]"]
+      },
+      {
+        "name": "Fairy Dust",
+        "row": 5,
+        "quote": "'...and God struck down his creation, leaving only its Champions.'",
+        "uniques": ["Only available <for [Pequena] Civilizations>"]
+      }
+    ]
+  },
+  {
+    "columnNumber": 1,
+    "era": "Tier 0",
+    "techCost": 20,
+    "buildingCost": 40,
+    "wonderCost": 180,
+    "techs": [
+      {
         "name": "New Genesis",
-        "row": 2,
+        "row": 3,
         "quote": "'...and God struck down his creation, leaving only its Champions.'",
         "uniques": ["Starting tech"]
       }

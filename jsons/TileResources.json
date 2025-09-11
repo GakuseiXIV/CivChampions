@@ -6,5 +6,39 @@
       "Cannot be traded",
       "Will not be displayed in Civilopedia",
       "Doesn't generate naturally"]
+  },
+  {
+    "name": "Souls",
+    "resourceType": "Strategic",
+    "revealedBy": "Breadtrails",
+    "uniques": ["Stockpiled",
+      "Cannot be traded",
+      "Doesn't generate naturally"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Souls collected by The Gravemaker of Crow's Den. Can be used to summon Skeletons."
+      }
+    ]
+  },
+  {
+    "name": "Flixel Charge",
+    "resourceType": "Strategic",
+    "uniques": ["Stockpiled",
+      "Cannot be traded",
+      "Will not be displayed in Civilopedia",
+      "Doesn't generate naturally",
+      "Not shown on world screen"
+    ]
+  },
+  {
+    "name": "Flixel Anticharge",
+    "resourceType": "Strategic",
+    "uniques": ["Stockpiled",
+      "Cannot be traded",
+      "Will not be displayed in Civilopedia",
+      "Doesn't generate naturally",
+      "Not shown on world screen"
+    ]
   }
 ]

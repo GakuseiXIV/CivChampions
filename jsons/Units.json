@@ -1,9 +1,9 @@
 [
   {
-      "name": "Settler",
-      "unitType": "Civilian",
-      "movement": 2,
-      "uniques": ["Founds a new city <by consuming this unit>","Requires at least [2] population"]
+    "name": "Settler",
+    "unitType": "Civilian",
+    "movement": 2,
+    "uniques": ["Founds a new city <by consuming this unit>","Requires at least [2] population"]
   },
   {
       "name": "Rifleman",
@@ -24,9 +24,11 @@
     "range": 1,
     "cost": 0,
     "attackSound": "shot",
-    "uniques": ["Founds a new city <costs [5] [Mana]>",
-      "Can Spread Religion",
-      "May found a religion <costs [10] [Mana]>"]
+    "uniques": ["Can Spread Religion",
+      "May found a religion <costs [5] [Mana]>",
+      "[Target Unit] heals [100] HP <costs [10] [Mana]>",
+      "Unit will heal every turn, even if it performs an action",
+      "All adjacent units heal [10] HP when healing"]
   },
   {
     "name":"The Gravemaker",
@@ -38,20 +40,47 @@
     "cost": 0,
     "attackSound": "shot",
     "uniques": [
-      "[3] free [Skeleton] units appear <costs [5] [Mana]>",
+      "[3] free [Skeleton] units appear <costs [5] [Mana]> <costs [3] [Souls]>",
       "Turn this tile into a [Wasteland] tile <costs [5] [Mana]>",
-      "[This Unit] heals [20] HP <upon ending a turn in a [Wasteland] tile>"
+      "[This Unit] heals [20] HP <upon ending a turn in a [Wasteland] tile>",
+      "Instantly provides [1] [Souls] <upon defeating a [Land] unit>"
+    ]
+  },
+  {
+    "name":"Flixel",
+    "unitType": "Champion",
+    "uniqueTo": "Pequena",
+    "movement": 5,
+    "strength": 12,
+    "range": 1,
+    "cost": 0,
+    "attackSound": "shot",
+    "uniques": [
+      "Can move after attacking",
+      "[This Unit] gains [+5] movement <costs [5] [Mana]> <for [0] movement>",
+      "[+20]% Strength <for every [Flixel Charge]>",
+      "[This Unit] gains [5] movement <upon defeating a [Land] unit>",
+      "[4] additional attacks per turn",
+      "Cannot attack <when number of [Flixel Anticharge] is more than [Flixel Charge]> <hidden from users>",
+      "Instantly provides [1] [Flixel Anticharge] <upon damaging a [Land] unit> <hidden from users>",
+      "Instantly provides [1] [Flixel Charge] <upon defeating a [Land] unit> <hidden from users>",
+      "Instantly consumes [1] [Flixel Charge] <for every [Flixel Charge]> <upon turn end> <hidden from users>",
+      "Instantly consumes [1] [Flixel Anticharge] <for every [Flixel Anticharge]> <upon turn end> <hidden from users>",
+      "Instantly consumes [1] [Flixel Anticharge] <for every [Flixel Anticharge]> <upon turn start> <hidden from users>",
+      "Ignores Zone of Control",
+
+      "Comment [Gain a Flixel Charge when defeating any Land unit. All Flixel Charges are lost at the end of the turn. If a Land unit is attacked but undefeated, Flixel can no longer attack that turn.]"
     ]
   },
   {
     "name":"Skeleton",
-    "unitType": "Infantry",
+    "unitType": "Swarm",
     "uniqueTo": "Crow's Den",
     "movement": 3,
     "strength": 3,
     "range": 1,
     "cost": 0,
     "attackSound": "shot",
-    "uniques": ["Unbuildable"]
+    "uniques": ["Unbuildable", "[20]% Strength <for every [Era number]>"]
   }
 ]

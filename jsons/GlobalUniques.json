@@ -1,5 +1,7 @@
 {
   "name": "Global uniques",
   "uniques": [
-    ]
+    "Instantly gain [5] [Mana] <hidden from users>",
+    "Instantly gain [1] [Mana] <upon turn end> <when below [10] [Mana]> <hidden from users>"
+  ]
 }

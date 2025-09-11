@@ -2,19 +2,57 @@
 	{
 		"name": "Grassland",
 		"type": "Land",
-		"food": 2,
+		"food": 1,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": []
+        "uniques": ["Becomes [Beach] when adjacent to [Coast]"]
     },
 	{
 		"name": "Ocean",
 		"type": "Water",
 		"food": 1,
-		"gold": 1,
 		"movementCost": 1,
 		"RGB": [2, 104, 100],
 		"uniques": [
+		]
+	},
+	{
+		"name": "Coast",
+		"type": "Water",
+		"culture": 1,
+		"movementCost": 1,
+		"RGB": [134, 183, 235],
+		"uniques": []
+	},
+	{
+		"name": "Beach",
+		"type": "Land",
+		"gold": 1,
+		"movementCost": 1,
+		"RGB": [237, 199, 167],
+		"uniques": []
+	},
+	{
+		"name": "Hill",
+		"type": "Land",
+		"science": 1,
+		"movementCost": 1,
+		"RGB": [38, 45, 53],
+		"uniques": [
+			"Has an elevation of [3] for visibility calculations",
+			"Occurs in chains at high elevations"
+		]
+	},
+	{
+		"name": "Mountain",
+		"type": "Land",
+		"culture": 1,
+		"movementCost": 1,
+		"RGB": [67, 84, 100],
+		"uniques": [
+			"Has an elevation of [5] for visibility calculations",
+			"Occurs in chains at high elevations",
+			"Must be adjacent to [3] [Hill] tiles"
 		]
 	},
 	{

@@ -8,12 +8,26 @@
         "movementType": "Land"
     },
     {
+        "name": "Swarm",
+        "movementType": "Land",
+        "uniques": [
+            "[25]% Strength <when attacking> <when adjacent to a [Swarm] unit>"
+        ]
+    },
+    {
+        "name": "Siege",
+        "movementType": "Land",
+        "uniques": [
+            "Can only attack [City] units"
+        ]
+    },
+    {
         "name": "Champion",
         "movementType": "Land",
         "uniques": [
             "Comment [Champions are powerful troops that represent their nation. They can use Mana to perform bonus actions.]",
             "Limited to [1] per Civilization",
-            "[25]% Strength <upon entering a new era>",
+            "[25]% Strength <for every [Era number]>",
             "Founds a new city <costs [5] [Mana]>"
         ]
     }
